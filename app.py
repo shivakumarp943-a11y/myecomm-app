@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Azure DevOps + GitHub Deployment Successful"
+    return "CI/CD Pipeline Successfully Triggered"
 
 app.run(host="0.0.0.0", port=5000)
